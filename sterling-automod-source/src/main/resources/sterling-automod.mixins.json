@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.sterling.automod.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ConnectScreenMixin",
+    "DisconnectedScreenAccessor",
+    "JoinMultiplayerScreenMixin",
+    "JoinMultiplayerScreenAccessor",
+    "OnlineServerEntryMixin",
+    "LANHeaderMixin",
+    "NetworkServerEntryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

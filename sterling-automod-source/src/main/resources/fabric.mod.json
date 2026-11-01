@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sterling-automod",
+  "version": "${version}",
+  "name": "Sterling AutoMod",
+  "description": "Installs verified server mods from Sterling Bridge manifests or Modrinth modpacks.",
+  "authors": [
+    "Sterling Team"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.sterling.automod.SterlingAutoModClient"
+    ]
+  },
+  "mixins": [
+    "sterling-automod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.163.0",
+    "minecraft": ">=26.3",
+    "java": ">=25"
+  }
+}
